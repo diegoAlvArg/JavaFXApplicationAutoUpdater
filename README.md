@@ -1,5 +1,5 @@
 # NOTE
-This is a modification of JavaFXApplicationAutoUpdater from user [goxr3plus](https://github.com/goxr3plus)
+This is a modification of [JavaFXApplicationAutoUpdater](https://github.com/goxr3plus/JavaFXApplicationAutoUpdater) from user [goxr3plus](https://github.com/goxr3plus)
 
 
 
