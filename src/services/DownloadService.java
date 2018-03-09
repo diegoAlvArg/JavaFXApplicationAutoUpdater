@@ -1,7 +1,7 @@
 /**
  * 
  */
-package main.java.com.goxr3plus.xr3playerupdater.services;
+package services;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
-import main.java.com.goxr3plus.xr3playerupdater.tools.InfoTool;
+import tools.InfoTool;
 
 /**
  * JavaFX Service which is Capable of Downloading Files from the Internet to the LocalHost
@@ -78,7 +78,7 @@ public class DownloadService extends Service<Boolean> {
 				// URL and LocalFile
 				//URL urlFile = new URL(java.net.URLDecoder.decode(urlString, "UTF-8"))
 				File destinationFile = new File(pathToLocalResource.get().toString());
-				
+				System.out.println("FLAG_10 " + destinationFile);
 				//Update the message
 				super.updateMessage("Connecting with Server");
 				String failMessage;
@@ -211,8 +211,11 @@ public class DownloadService extends Service<Boolean> {
 		boolean fileDeleted = false;
 		
 		//Check if The Service Succeeded 
-		if (!succeeded)
-			fileDeleted = new File(pathToLocalResource.get().toString()).delete();
+		if (!succeeded){
+                    System.out.println("FLAG_05 " + pathToLocalResource.get().toString());
+                    fileDeleted = new File(pathToLocalResource.get().toString()).delete();
+                }
+			
 		
 		return fileDeleted;
 	}
@@ -222,6 +225,8 @@ public class DownloadService extends Service<Boolean> {
 	 */
 	public void startDownload(URL remoteResourceLocation , Path pathToLocalResource) {
 		//!Running and Report null
+                System.out.println("FLAG_11 remoteResourceLocation: " + remoteResourceLocation);
+                System.out.println("FLAG_12 pathToLocalResource: "  + pathToLocalResource);
 		if (!isRunning() && pathToLocalResource != null && remoteResourceLocation != null) {
 			
 			//Set

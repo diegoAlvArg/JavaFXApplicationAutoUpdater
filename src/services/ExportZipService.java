@@ -1,7 +1,7 @@
 /*
  * 
  */
-package main.java.com.goxr3plus.xr3playerupdater.services;
+package services;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,8 +16,8 @@ import java.util.zip.ZipInputStream;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 import javafx.util.Duration;
-import main.java.com.goxr3plus.xr3playerupdater.tools.ActionTool;
-import main.java.com.goxr3plus.xr3playerupdater.tools.NotificationType;
+import tools.ActionTool;
+import tools.NotificationType;
 
 /**
  * This class is used to import an XR3Player database (as .zip folder)
@@ -106,6 +106,9 @@ public class ExportZipService extends Service<Boolean> {
 		return new Task<Boolean>() {
 			@Override
 			protected Boolean call() throws Exception {
+                            
+                                        System.out.println("FLAG_07 " + zipFile);
+                                        System.out.println("FLAG_08 " + destinationFolder);
 				
 				//---------------------Move on Importing the Database-----------------------------------------------
 				
@@ -145,6 +148,7 @@ public class ExportZipService extends Service<Boolean> {
 								fos.write(buffer, 0, len);
 							
 						} catch (IOException ex) {
+                                                    System.err.println("FLAG_03");
 							exception = ex.getMessage();
 							logger.log(Level.WARNING, "", ex);
 						}
@@ -161,6 +165,7 @@ public class ExportZipService extends Service<Boolean> {
 					zip.close();
 					
 				} catch (IOException ex) {
+                                    System.err.println("FLAG_09");
 					exception = ex.getMessage();
 					logger.log(Level.WARNING, "", ex);
 					return false;

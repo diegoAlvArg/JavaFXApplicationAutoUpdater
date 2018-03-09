@@ -1,7 +1,7 @@
 /*
  * 
  */
-package main.java.com.goxr3plus.xr3playerupdater.tools;
+package tools;
 
 /**
  * The type of the notification to be shown.

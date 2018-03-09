@@ -59,7 +59,7 @@
 					<!-- MainClass in mainfest make a executable jar -->
 					<archive>
 						<manifest>
-							<mainClass>main.java.com.goxr3plus.xr3playerupdater.application.Main</mainClass>
+							<mainClass>application.Main</mainClass>
 						</manifest>
 					</archive>
 					<appendAssemblyId>false</appendAssemblyId>

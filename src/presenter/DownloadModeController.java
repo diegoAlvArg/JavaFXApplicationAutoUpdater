@@ -1,4 +1,4 @@
-package main.java.com.goxr3plus.xr3playerupdater.presenter;
+package presenter;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -12,9 +12,9 @@ import javafx.scene.control.ProgressIndicator;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Rectangle;
-import main.java.com.goxr3plus.xr3playerupdater.application.Main;
-import main.java.com.goxr3plus.xr3playerupdater.tools.ActionTool;
-import main.java.com.goxr3plus.xr3playerupdater.tools.InfoTool;
+import application.Main;
+import tools.ActionTool;
+import tools.InfoTool;
 
 public class DownloadModeController extends BorderPane {
 	
