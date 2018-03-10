@@ -34,7 +34,8 @@ import tools.ResourceLeng;
  * @see https://github.com/goxr3plus/JavaFXApplicationAutoUpdater
  *
  * @version 1.1.0
- * @author Diego Alvarez Limpieza de codigo, documentacion y localizacion
+ * @author Diego Alvarez 
+ * Clean up code, documentation, internationalization
  */
 public class Main extends Application {
 
@@ -67,7 +68,7 @@ public class Main extends Application {
     private static ResourceBundle rb;
 
     private static final String DOWNLOAD_SEED
-            = "https://github.com/diegoAlvArg/Updater/releases/download/V0.0%o/HelloWorld.0%o.zip";
+            = "https://github.com/diegoAlvArg/Updater/releases/download/V0.0%d/HelloWorld.0%d.zip";
     //================Listeners================
     //Create a change listener
     ChangeListener<? super Number> listener = (observable, oldValue, newValue) -> {
@@ -102,15 +103,15 @@ public class Main extends Application {
         //Parse Arguments -> I want one parameter -> for example [45] which is the update i want
         List<String> applicationParameters = super.getParameters().getRaw();
         if (applicationParameters.isEmpty()) {
-            update = 6;
-//            update = Integer.valueOf(applicationParameters.get(0));
+//            update = 7;
+            update = Integer.valueOf(applicationParameters.get(0));
         } else {
             System.out.println(rb.getString(ResourceLeng.APP_NO_ARGS));
             System.exit(0);
         }
 
         //We need this in order to restart the update when it fails
-        System.out.println(rb.getString(ResourceLeng.APP_UPDATER_INIT));
+        System.out.println(ResourceLeng.APP_UPDATER_INIT);
 
         // --------Window---------
         window = primaryStage;
@@ -389,8 +390,8 @@ public class Main extends Application {
                 // Continuously Read Output to check if the main application started
                 String line;
 //  >>>>              System.out.println("CHECKING is alive");
-                String mark_OK = rb.getString(ResourceLeng.APP_INIT);
-                String mark_ERROR = rb.getString(ResourceLeng.ERROR);
+                String mark_OK = ResourceLeng.APP_INIT;
+                String mark_ERROR = ResourceLeng.ERROR;
                 while (process.isAlive()) {
                     while ((line = bufferedReader.readLine()) != null) {
 //  >>>>                      System.out.println("LINE: " + line);
@@ -399,9 +400,9 @@ public class Main extends Application {
                         } else if (line.contains(mark_OK)) {
                             //This line is being printed when XR3Player Starts 
                             //So the AutoUpdater knows that it must exit
-//  >>>>                          deleteFolder(path);
+                            deleteFolder(path);
                             System.exit(0);
-                        } else if(line.contains(mark_ERROR)){
+                        } else if (line.contains(mark_ERROR)) {
                             //Some kind of problem
                             throw new InterruptedException();
                         }

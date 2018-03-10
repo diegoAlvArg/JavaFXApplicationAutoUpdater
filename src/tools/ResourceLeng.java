@@ -9,7 +9,7 @@ package tools;
  * @version 1.0
  * @author Diego Alvarez
  */
-public class ResourceLeng {
+public class ResourceLeng extends BasicLeng{
     //*******************************
 
     /**
@@ -17,10 +17,6 @@ public class ResourceLeng {
      */
     public final static String APP_NO_ARGS = "app_nargs";
 
-    /**
-     * Updater was launched correctly
-     */
-    public final static String APP_UPDATER_INIT = "app_updater_init";
 
     /**
      * Title of Application
@@ -93,15 +89,7 @@ public class ResourceLeng {
 
     public final static String ERROR_NO_INTERNET = "Error_internet";
     //********************MARK BETWEN APP****************
-    /**
-     * Main aplication start
-     */
-    public final static String APP_INIT = "app_init";
-    
-    /**
-     * Word Error
-     */
-    public final static String ERROR = "Error";
+  
     
     
 }
