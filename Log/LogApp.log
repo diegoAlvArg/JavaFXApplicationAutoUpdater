@@ -1,0 +1,602 @@
+
+Thu May 24 17:43:02 CEST 2018 --- Thread: 13   application.HelloWorld
+INFO: Cerrando App desde ventana (TR040)
+
+
+Thu May 24 17:48:04 CEST 2018 --- Thread: 13   application.HelloWorld
+INFO: Cerrando App desde ventana (TR040)
+
+
+Fri May 25 11:04:59 CEST 2018 --- Thread: 13   application.HelloWorld
+INFO: loading FXML
+Fri May 25 11:05:00 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Levantando interfaz (TR000)
+Fri May 25 11:05:00 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Datos no recuperados (TR011)
+Fri May 25 11:24:39 CEST 2018 --- Thread: 13   application.Main
+INFO: arg 11
+Tue May 29 10:02:38 CEST 2018 --- Thread: 13   application.Main
+INFO: arg [11]
+Tue May 29 10:06:06 CEST 2018 --- Thread: 13   application.Main
+INFO: arg [11]
+Tue May 29 10:07:56 CEST 2018 --- Thread: 13   application.Main
+INFO: arg [11]
+Tue May 29 10:09:24 CEST 2018 --- Thread: 13   application.Main
+INFO: arg [11]
+Tue May 29 10:09:36 CEST 2018 --- Thread: 13   application.HelloWorld
+INFO: loading FXML
+Tue May 29 10:09:36 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Levantando interfaz (TR000)
+Tue May 29 10:09:37 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Datos no recuperados (TR011)
+Tue May 29 10:09:44 CEST 2018 --- Thread: 13   application.Main
+INFO: arg [11]
+Tue May 29 10:09:58 CEST 2018 --- Thread: 13   application.HelloWorld
+INFO: loading FXML
+Tue May 29 10:09:59 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Levantando interfaz (TR000)
+Tue May 29 10:09:59 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Datos no recuperados (TR011)
+Tue May 29 11:27:14 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater correct start (TR000)
+Tue May 29 11:27:27 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater correct start (TR000)
+Tue May 29 11:42:00 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater correct start (TR000)
+Thu May 31 12:27:13 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater correct start (TR000)
+Thu May 31 12:27:16 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: DownloadService failed (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:27:59 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater correct start (TR000)
+Thu May 31 12:28:01 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: DownloadService failed (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:28:52 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater correct start (TR000)
+Thu May 31 12:28:54 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: DownloadService failed (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:30:57 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:31:10 CEST 2018 --- Thread: 13   application.HelloWorld
+INFO: loading FXML
+Thu May 31 12:31:10 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Levantando interfaz (TR000)
+Thu May 31 12:31:10 CEST 2018 --- Thread: 13   application.InterfaceController
+INFO: Datos no recuperados (TR011)
+Thu May 31 12:32:10 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:32:12 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:34:44 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:34:45 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:38:29 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:38:30 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:41:46 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:41:48 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:43:09 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:43:11 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:46:02 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:46:03 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 12:57:54 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 12:57:56 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:02:01 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:02:02 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:04:05 CEST 2018 --- Thread: 13   application.Main
+SEVERE: Error no se reciven argumentos (TR001)
+Thu May 31 13:04:15 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:04:16 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:07:21 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:07:23 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:10:06 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:10:08 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:12:02 CEST 2018 --- Thread: 16   application.Main
+SEVERE: Error no se reciven argumentos (TR001)
+Thu May 31 13:13:01 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:13:04 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:13:22 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:13:24 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:13:52 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:13:59 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:15:57 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:15:59 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:16:33 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:16:39 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:18:28 CEST 2018 --- Thread: 13   application.Main
+SEVERE: Error no se reciven argumentos (TR001)
+Thu May 31 13:18:45 CEST 2018 --- Thread: 13   application.Main
+SEVERE: Error no se reciven argumentos (TR001)
+Thu May 31 13:18:51 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:18:52 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:20:47 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:20:49 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:21:24 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:21:31 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:23:05 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:23:07 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:24:19 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:24:21 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 13:33:56 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 13:33:58 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 14:49:45 CEST 2018 --- Thread: 13   application.Main
+SEVERE: Error no se reciven argumentos (TR001)
+Thu May 31 14:49:52 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 14:49:55 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 14:56:16 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 14:56:18 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 15:01:31 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 15:01:34 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 15:07:07 CEST 2018 --- Thread: 16   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 15:07:13 CEST 2018 --- Thread: 22   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Thu May 31 15:09:10 CEST 2018 --- Thread: 13   application.Main
+INFO: Updater inicio correcto (TR000)
+Thu May 31 15:09:12 CEST 2018 --- Thread: 18   services.DownloadService$1
+WARNING: Error en el servicio de descarga (TR003)
+ java.lang.NumberFormatException: null
+	at java.lang.Long.parseLong(Long.java:552)
+	at java.lang.Long.parseLong(Long.java:631)
+	at services.DownloadService$1.call(DownloadService.java:99)
+	at services.DownloadService$1.call(DownloadService.java:79)
+	at javafx.concurrent.Task$TaskCallable.call(Task.java:1423)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at javafx.concurrent.Service.lambda$null$492(Service.java:725)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javafx.concurrent.Service.lambda$executeTask$493(Service.java:724)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

@@ -77,9 +77,21 @@ public class ResourceLeng extends BasicLeng{
     public final static String MESSAGE_TXT = "mesagge";
 
     public final static String WAITING_TXT = "wait_txt";
-    
-
-    
+    public final static String APP_CONNECT = "app_connect";
+    public final static String DOWNLOAD_TRACK_P1 = "download_track_p1";
+    public final static String DOWNLOAD_TRACK_P2 = "download_track_p2";
+    public final static String FAIL_MSJ_P1 = "fail_msj_p1";
+    public final static String FAIL_MSJ_P2 = "fail_msj_p2";
+    public final static String FAIL_MSJ_P3 = "fail_msj_p3";
+    public final static String QUESTION = "question";
+    public final static String BUTTON_DOWNLOAD = "button_download";
+    public final static String EXPORT_ZIP_TITLE = "export_zip_title";
+    public final static String EXPORT_ZIP_MSJ = "export_zip_msj";
+    public final static String EXPORT_LABEL = "export_label";
+    public final static String WEB_OK_TITLE = "web_ok_title";
+    public final static String WEB_OK_MSJ = "web_ok_msj";
+    public final static String WEB_ERROR_TITLE = "web_error_title";
+    public final static String WEB_ERROR_MSJ = "web_error_msj";
     //*******************ERRORs**************************
     /**
      * Label Text for Notification due Error for permissions
@@ -88,8 +100,20 @@ public class ResourceLeng extends BasicLeng{
     public final static String ERROR_NO_PERMISSINOS_TXT = "Error_np_text";
 
     public final static String ERROR_NO_INTERNET = "Error_internet";
+    public final static String FAIL_WORD = "fail_word";
     //********************MARK BETWEN APP****************
   
     
-    
+    //********************TRACES****************
+    public final static String TRACE_INIT_UPDATER_OK = "trace_init_updater_ok";
+    public final static String TRACE_INIT_UPDATER_NO_ARGS = "trace_init_updater_no_args";
+    public final static String TRACE_INIT_NO_PERMISSIONS = "trace_init_no_permissions";
+    public final static String TRACE_INIT_DOWNLOAD_FAIL = "trace_init_download_fail";
+    public final static String TRACE_INIT_MISS_ARGS = "trace_init_miss_arg";
+    public final static String TRACE_ERROR_DOWNLOAD = "trace_error_download";
+    public final static String TRACE_ERROR_ZIP = "trace_error_zip";
+    public final static String TRACE_ERROR_URI = "trace_error_uri";
+    public final static String TRACE_ERROR_ONCOPY = "trace_error_oncopy";
+    public final static String TRACE_ERROR_ONWEB = "trace_error_onweb";
+    public final static String TRACE_INTERRUPT = "trace_interrupt";  
 }

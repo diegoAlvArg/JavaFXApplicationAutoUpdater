@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
@@ -11,6 +13,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
+import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 import javafx.animation.PauseTransition;
@@ -25,17 +28,18 @@ import services.DownloadService;
 import services.ExportZipService;
 import tools.ActionTool;
 import tools.InfoTool;
+import tools.LoggGen;
 import tools.NotificationType;
 import tools.ResourceLeng;
 
 /**
  * @version 1.0
  * @author goxr3plus
- * @see https://github.com/goxr3plus/JavaFXApplicationAutoUpdater
+ *
+ * see https://github.com/goxr3plus/JavaFXApplicationAutoUpdater
  *
  * @version 1.1.0
- * @author Diego Alvarez 
- * Clean up code, documentation, internationalization
+ * @author Diego Alvarez Clean up code, documentation, internationalization
  */
 public class Main extends Application {
 
@@ -68,7 +72,7 @@ public class Main extends Application {
     private static ResourceBundle rb;
 
     private static final String DOWNLOAD_SEED
-            = "https://github.com/diegoAlvArg/Updater/releases/download/V0.0%d/HelloWorld.0%d.zip";
+            = "https://github.com/diegoAlvArg/Updater/releases/download/V0.%d/HelloWorld.%d.zip";
     //================Listeners================
     //Create a change listener
     ChangeListener<? super Number> listener = (observable, oldValue, newValue) -> {
@@ -102,11 +106,17 @@ public class Main extends Application {
 
         //Parse Arguments -> I want one parameter -> for example [45] which is the update i want
         List<String> applicationParameters = super.getParameters().getRaw();
-        if (applicationParameters.isEmpty()) {
-//            update = 7;
+        if (!applicationParameters.isEmpty()) {
+//            update = 12;
+            LogRecord logRegistro = new LogRecord(Level.INFO, rb.getString(ResourceLeng.TRACE_INIT_UPDATER_OK));
+            logRegistro.setSourceClassName(this.getClass().getName());
+            LoggGen.log(logRegistro);
             update = Integer.valueOf(applicationParameters.get(0));
         } else {
             System.out.println(rb.getString(ResourceLeng.APP_NO_ARGS));
+            LogRecord logRegistro = new LogRecord(Level.SEVERE, rb.getString(ResourceLeng.TRACE_INIT_UPDATER_NO_ARGS));
+            logRegistro.setSourceClassName(this.getClass().getName());
+            LoggGen.log(logRegistro);
             System.exit(0);
         }
 
@@ -214,6 +224,10 @@ public class Main extends Application {
             downloadMode.getProgressBar().setProgress(-1);
             downloadMode.getProgressLabel().setText(rb.getString(ResourceLeng.CLOSE_NICELY));
 
+            LogRecord logRegistro = new LogRecord(Level.SEVERE, rb.getString(ResourceLeng.TRACE_INIT_NO_PERMISSIONS));
+            logRegistro.setSourceClassName(this.getClass().getName());
+            LoggGen.log(logRegistro);
+
             //Show Message
             ActionTool.showNotification(rb.getString(ResourceLeng.ERROR_NO_PERMISSIONS),
                     String.format(rb.getString(ResourceLeng.ERROR_NO_PERMISSINOS_TXT), updateFolder.getAbsolutePath(), applicationName),
@@ -268,9 +282,15 @@ public class Main extends Application {
                 downloadMode.getProgressLabel().textProperty().bind(downloadService.messageProperty());
                 downloadMode.getProgressLabel().textProperty().addListener((observable, oldValue, newValue) -> {
                     //Give try again option to the user
-                    if (newValue.toLowerCase().contains("failed")) {
+                    if (newValue.toLowerCase().contains(rb.getString(ResourceLeng.FAIL_WORD))) {
                         downloadMode.getFailedStackPane().setVisible(true);
+                        System.err.println("Flag 00");
                     }
+//                    else if(newValue.toLowerCase().contains("failed")){
+//                        downloadMode.getFailedStackPane().setVisible(true);
+//                        System.err.println("Flag 01"); 
+//                    }
+//                    System.err.println(">>>>" + newValue.toLowerCase());
                 });
                 downloadMode.getProgressBar().progressProperty().addListener(listener);
                 window.setTitle(String.format(rb.getString(ResourceLeng.APP_TITLE), this.applicationName, this.update));
@@ -278,7 +298,11 @@ public class Main extends Application {
                 //Start
                 downloadService.startDownload(new URL(downloadURL), Paths.get(foldersNamePrefix + ".zip"));
             } catch (MalformedURLException e) {
-                e.printStackTrace();
+                StringWriter errors = new StringWriter();
+                e.printStackTrace(new PrintWriter(errors));
+                LogRecord logRegistro = new LogRecord(Level.SEVERE, "\n" + errors.toString());
+                logRegistro.setSourceClassName(this.getClass().getName());
+                LoggGen.log(logRegistro);
             }
 
         } else {
@@ -430,6 +454,10 @@ public class Main extends Application {
     public static boolean deleteZipFolder() {
 //  >>>>>      System.out.println("Flag_01 DELETING>>>> " + foldersNamePrefix + ".zip");
         return new File(foldersNamePrefix + ".zip").delete();
+    }
+
+    public static ResourceBundle getResourceBundle() {
+        return rb;
     }
 
     public static void main(String[] args) {
